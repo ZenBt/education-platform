@@ -303,12 +303,13 @@ docker-compose down
 - `CourseServiceTest` - тесты бизнес-логики курсов
 - `EnrollmentServiceTest` - тесты записи на курсы
 - `AssignmentServiceTest` - тесты системы заданий
+- `QuizServiceTest` - тесты для квизов
 
 ### Интеграционные тесты
 - `EducationPlatformIntegrationTest` - end-to-end сценарии
 - `RepositoryTest` - тесты репозиториев с реальной БД
 
-Всего: **20+ тестов** с покрытием основных сценариев
+Всего: **30+ тестов** с покрытием основных сценариев
 
 ### Запуск тестов
 ```bash
